@@ -1,0 +1,24 @@
+/* PlayerThrow.css */
+
+.player-throw {
+  margin-bottom: 15px;
+}
+
+.optionsRow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Reuse your old .option + .isSelected styles */
+.option {
+  width: 100px;
+  cursor: pointer;
+}
+
+/* hover and isSelected share a green background */
+.option:hover,
+.isSelected {
+  background-color: rgb(124, 218, 124);
+  border-radius: 5px;
+}
